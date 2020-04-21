@@ -1,0 +1,123 @@
+.footer {
+    border-top: 1px solid rgb(241, 241, 241);
+    padding: 100px 0 35px 0;   
+    text-align: center; 
+}
+
+.wrapper-footer{
+    margin-bottom: 105px;
+    display: flex; 
+    justify-content: space-between;   
+}
+
+.comunication { 
+    text-align: left;
+}
+
+.footer__list { 
+    list-style-type: none; 
+}
+
+.footer__list-item {
+    margin-bottom: 20px;
+
+    a {        
+        color: #8c8e91;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1;    
+        letter-spacing: 0.2px;
+        transition: .3s ease;
+
+        &:hover {
+            color: #36527a;
+            text-decoration: underline;
+        }        
+    }
+
+    &--black {
+        a {
+            color: #282828;
+            font-size: 20px; 
+            
+            &:hover {
+                color: #683b3b;
+                text-decoration: none;
+            }
+        }        
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.services {
+    text-align: left;
+}
+
+.footer-title { 
+    margin-bottom: 30px;
+    color: #393939;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.about {
+    text-align: left;
+}
+
+.contacts { 
+    text-align: left;
+    max-width: 235px;
+}
+
+.address {
+    margin-bottom: 35px;
+
+    p {
+    color: #8c8e91;    
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;    
+    letter-spacing: 0.2px;
+    }
+}
+
+.contacts__icon { 
+    display: flex;
+    
+    
+}
+
+.contacts__icon-link {
+    
+    i {
+        margin-right: 14px;
+        display: block;
+        border: 1px solid #dbdbdb; 
+        border-radius: 50%;
+        font-size: 14px;
+        padding: 13px 16px; 
+        color: #8c8e91;     
+        transition: all 0.4s ease;        
+    }
+   
+
+    &:last-child {
+        margin-right: 0;
+    }     
+
+    :hover {           
+        background: linear-gradient(-226deg, #ff728b 0%, #ffa38b 100%);        
+        color: #ffffff;
+        border: 1px solid rgb(255, 255, 255);                     
+    }    
+}
+
+
+.copyright { 
+    color: #6b6c6d;
+    font-size: 17px;
+    font-weight: 400;
+}
